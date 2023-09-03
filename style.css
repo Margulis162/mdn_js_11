@@ -8,17 +8,39 @@ body{
     flex-direction:column;
     align-items: center;
     padding-top:10px;
-    background-color: lightblue;
+    background-color:  rgb(115, 120, 141);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    letter-spacing: .05em;
 }
 div{
-    background-image: linear-gradient(180deg, grey, rgb(115, 120, 141));
+    background-image: radial-gradient( rgb(115, 120, 141), 70%, grey);
     display:flex;
     flex-direction:column;
-    block-size: 200px;
+   
+    block-size: 400px;
     inline-size: 300px; 
     padding: 10px;
+    border: 10px solid grey;
+    box-shadow: 10px 10px 10px rgba(202, 96, 200, 0.1);
+    border-radius:10px;
+    color:white;
 }
 button{
     margin-block: 10px;
     inline-size:25%;
+    border-radius: 5px;
+    color:white;
+    border: 10px outset rgb(174, 167, 167);
+    background-color: grey;
+    block-size: 100px;
+    inline-size: 75px;
+    
+}
+input{
+    border-radius: 5px;
+    background-color:rgba(245, 173, 244, 0.3) ;
+    border: 10px inset rgba(202, 96, 200, 0.41);
+    color: rgb(31, 24, 36);
+    margin-block:20px;
+    letter-spacing: .03em;
 }
